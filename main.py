@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 bot_token = os.environ.get('6366452536:AAG6J5q7U4E1AGKonJuH-kQfrGB5AxEippk')
-workers = int(os.environ.get('4'))
+workers = int(os.environ.get('4', '4'))
 api = int(os.environ.get('27940595'))
 hash = os.environ.get('89a1fa73f8cc1e1002044e1e4e2b7b65')
 chnnl = os.environ.get('https://t.me/Games_cheats_2')
